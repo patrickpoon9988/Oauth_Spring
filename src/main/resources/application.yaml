@@ -1,0 +1,10 @@
+# spring.application.name=oauthserver
+
+rsa.publicKey: classpath:certs/public.pem
+rsa.privateKey: classpath:certs/private.pem
+
+mongodb+srv://user:12345@cluster0.2avgs.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
+
+logging: 
+ level: 
+  org.springframework.security: DEBUG
